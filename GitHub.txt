@@ -1,0 +1,13 @@
+Glosarium :
+
+- repo    : folder project kita
+- commit  : rekamana / snapshot dari repo kita
+- hash    : penanda unik pada sebuah commit
+- branch  : cabang bebas dari sebuah commit
+- merge   : menggabungkan bracnh
+- remote  : sumber yang memiliki repo
+- clone   : mengambil repo dari remote
+- push    : mengirim commit ke repo
+- pull    : mengambil commit dari repo
+
+
