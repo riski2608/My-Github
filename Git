@@ -1,8 +1,22 @@
 Git Command (local)
-$ git init
-$ git add <file(s)>
-$ git status
-$ git commit
-$ git config
-$ git branch
-$ git help
+git init => untuk menginisilaisasi folder sebagai repositori dengan default branch master
+git status => untuk melihat file yang belum di trac
+git add <file(s)> =>
+git commit
+git config
+git branch
+git help
+
+pwd (print working directory)
+ls (list file & folder)
+cd (change directory) untuk berpindah masuk kedalam folder
+clear (untuk membersihkan tampilan command)
+
+
+
+3 area pada repo GIT
+- working tree
+- staging area
+- hisotry
+
+Step
