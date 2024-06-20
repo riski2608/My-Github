@@ -18,29 +18,40 @@ git config
 
 git commit => untuk menyimpan perubahan 
   - git commit -m "tulis pesan disini" => 
-git branch
+
+git branch 
+  - git branch <nama branch baru> => untuk membuat bracnh 
+  - git branch => menampilkan bracnh
+  - git branch --merged => melihat bracnh mana yang telah di merge
+  - git branch -d <nama branch> => untuk menghapus branch yang sudah di merge
+  - git branch -D <nama branch> => untuk menghapus branch baik belum atau sudah di merge
 
 git help
 
 git log => untuk melihat semua perubahan
   - git log -3 => untuk melihat 3 perubuahan terahir
   - git log --<file(s)> => untuk melihat perubahan pada file tertentu\
+  - git log --all --decorate --oneline --graph => untuk menampilkan log beserta branch
   - q => untuk keluar dari git log
 
 git checkout 
   - git checkout <5 digit hash terahir> => untuk memilih file yang akan di kemablikan
   - git checkout <5 digit hash terahir> --<file(s)> => untuk memilih file yang akan di kemablikan
+  - git checkout <nama_branch> => untuk berpindah ke branch
 
+alias => untuk menyingkat comamand line
+  - git config --global alias.<nama alias> "log --all --decorate --oneline --graph" => menambahkan alias ke konfigurasi global
 
-pwd (print working directory)
-ls (list file & folder)
-cd (change directory) untuk berpindah masuk kedalam folder
-clear (untuk membersihkan tampilan command)
+pwd => (print working directory)
+ls => (list file & folder)
+cd => (change directory) untuk berpindah masuk kedalam folder
+clear => (untuk membersihkan tampilan command)
 
 
 M
 U
 A
+D
 
 
 3 area pada repo GIT
