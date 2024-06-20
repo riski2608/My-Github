@@ -1,11 +1,13 @@
 Git Command (local)
 git init => untuk menginisilaisasi folder sebagai repositori dengan default branch master
-git status => untuk melihat file yang belum di trac
-git add <file(s)> =>
-git commit
+git status => untuk melihat file yang belum dan sudah di trac atau di masukan kedalam staging area
+git add <file(s)> => untuk memasukan file atau folder keadalam staging area
+git rm --cached <file(s)> => untuk mengeluarkan file atau folder dalam staging area
 git config
+git commit
 git branch
 git help
+
 
 pwd (print working directory)
 ls (list file & folder)
