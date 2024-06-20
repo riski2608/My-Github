@@ -1,12 +1,35 @@
 Git Command (local)
+
 git init => untuk menginisilaisasi folder sebagai repositori dengan default branch master
+
 git status => untuk melihat file yang belum dan sudah di trac atau di masukan kedalam staging area
-git add <file(s)> => untuk memasukan file atau folder keadalam staging area
+
+git add 
+  - git add <file(s)> => untuk memasukan file atau folder keadalam staging area
+  - git add . => untuk add semua file
+
 git rm --cached <file(s)> => untuk mengeluarkan file atau folder dalam staging area
+
 git config
-git commit
+  - git config --global user.name "your name"
+  - git config --global user.email "your@email.com"
+  ( esc lalu  q! => untuk keluar dari text editor vim (default) di VSC)
+  ( esc  lali :q! => untuk keluar dari text editor vim (default))
+
+git commit => untuk menyimpan perubahan 
+  - git commit -m "tulis pesan disini" => 
 git branch
+
 git help
+
+git log => untuk melihat semua perubahan
+  - git log -3 => untuk melihat 3 perubuahan terahir
+  - git log --<file(s)> => untuk melihat perubahan pada file tertentu\
+  - q => untuk keluar dari git log
+
+git checkout 
+  - git checkout <5 digit hash terahir> => untuk memilih file yang akan di kemablikan
+  - git checkout <5 digit hash terahir> --<file(s)> => untuk memilih file yang akan di kemablikan
 
 
 pwd (print working directory)
@@ -14,6 +37,10 @@ ls (list file & folder)
 cd (change directory) untuk berpindah masuk kedalam folder
 clear (untuk membersihkan tampilan command)
 
+
+M
+U
+A
 
 
 3 area pada repo GIT
