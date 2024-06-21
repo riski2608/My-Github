@@ -7,6 +7,7 @@ git status => untuk melihat file yang belum dan sudah di trac atau di masukan ke
 git add 
   - git add <file(s)> => untuk memasukan file atau folder keadalam staging area
   - git add . => untuk add semua file
+  - git add -i
 
 git rm --cached <file(s)> => untuk mengeluarkan file atau folder dalam staging area
 
